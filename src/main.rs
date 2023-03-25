@@ -179,7 +179,7 @@ pub async fn equation(equation: &str, channel: &str, msg: &str) -> Result<(), Bo
     Ok(())
 }
 
-pub async fn send(text: String, channel: &str, message: &str) -> Result<(), Box<dyn std::error::Error>> {
+pub async fn send(text: String, channel: &str, _message: &str) -> Result<(), Box<dyn std::error::Error>> {
     let mut header = HeaderMap::new();
     header.insert("x-bot-token", HeaderValue::from_str(&BOT)?);
 

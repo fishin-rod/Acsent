@@ -1,11 +1,11 @@
 [package]
-name = "revolt_rs"
-version = "0.3.0"
-description = "A API wrapper for the revolt API"
+name = "birdy_bot"
+version = "0.3.1"
+description = "A API wrapper/Bot for the revolt API"
 # licence
 # homepage
 # documentation
-# repository
+repository = "https://github.com/fishin-rod/Birdy-Bot"
 authors = ["Fish"]
 readme = "README.md"
 keywords = ["API", "Revolt"]
