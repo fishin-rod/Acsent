@@ -1,7 +1,4 @@
-secrets.toml
-latex.png
 target
 Cargo.lock
 .env
-shuttle.toml
 .vscode
